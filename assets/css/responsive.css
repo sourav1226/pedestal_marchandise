@@ -1,0 +1,5 @@
+@media screen and (max-width: 767px){
+    .course_card .row .col-md-4{
+        margin-bottom: calc(8px + 2vmin);
+    }
+}

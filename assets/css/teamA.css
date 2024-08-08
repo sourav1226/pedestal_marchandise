@@ -95,6 +95,7 @@ a.link-copyright {
 /* footer ends */
 /*body*/
 .card{
+    text-align: center;
     width:25rem;
     margin: 0 auto;
 }
@@ -114,3 +115,19 @@ a.link-copyright {
             text-decoration: none;
         }
 /*body ends*/
+
+
+@media (max-width: 992px){
+    .row{
+        gap: 1px;
+    }
+}
+@media (max-width:320px){
+    .navbar {
+        margin-right: -90px;
+    }
+    .header {
+        padding: 100px 0;
+        width: 411px;
+    }
+}

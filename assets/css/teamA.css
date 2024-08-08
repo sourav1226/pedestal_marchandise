@@ -93,3 +93,24 @@ a.link-copyright {
 }
 
 /* footer ends */
+/*body*/
+.card{
+    width:25rem;
+    margin: 0 auto;
+}
+.course_card .row {
+    justify-content: center; /* Center align the row */
+}
+.card h5,p{
+    color:black;
+}
+.card-img-top {
+    height: 240px; /* Adjust height as needed */
+    object-fit: cover; /* Ensure the image covers the area while maintaining aspect ratio */
+}
+.card-title,
+        .card-text {
+            font-weight: bold;
+            text-decoration: none;
+        }
+/*body ends*/

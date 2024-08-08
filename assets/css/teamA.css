@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.navbar .nav-link {
+    color: #000 !important;
+}
+
+.header {
+    background-color: #746868;
+    padding: 100px 0;
+}
+
+.header .display-4 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.header .lead {
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+}

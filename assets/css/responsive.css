@@ -3,3 +3,13 @@
         margin-bottom: calc(8px + 2vmin);
     }
 }
+
+@media (max-width: 767px) {
+    .footer-bottom {
+        flex-direction: column;
+    }
+
+    .footer-bottom .dropdown {
+        margin-bottom: 1rem;
+    }
+}

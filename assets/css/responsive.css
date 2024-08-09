@@ -1,16 +1,37 @@
-@media screen and (max-width: 767px){
-    .course_card .row .col-md-4{
-        margin-bottom: calc(8px + 2vmin);
+@media(max-width : 992px){
+    .card{
+        width: fit-content;
+    }
+    .card-img-top{
+        width: 100%;
+        height: auto;
     }
 }
-
-@media (max-width: 767px) {
-    .footer-bottom {
-        flex-direction: column;
+@media(max-width : 768px){
+    .card{
+        width: fit-content;
+    }
+    .card-img-top{
+        width: 100%;
+        height: auto;
+    }
+}
+@media(max-width : 320px){
+    .navbar-text {
+        height: -90px;
+        white-space: nowrap;
+        overflow: visible;
+        position:fixed;
+        animation: moveText 10s linear infinite;
     }
 
-    .footer-bottom .dropdown {
-        margin-bottom: 1rem;
+    @keyframes moveText {
+        0% {
+            left: 100%;
+        }
+        100% {
+            left: -100%;
+        }
     }
 }
 

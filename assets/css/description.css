@@ -1,0 +1,33 @@
+.btn-group{
+    padding: 32px 0 0 ;
+}
+.Productdescription {
+    margin: 15px;
+}
+
+.d-grid{
+    margin: 15px 5px 15px 5px;
+}
+
+.Quantity {
+    margin-top: 10px;
+    display: flex;
+}
+
+.container{
+
+   margin: 100px 100px 100px 100px;
+}
+
+.form{
+    padding: 12px;
+    
+}
+
+.productrecommendation_inner{
+    h2{
+        text-align: center;
+       margin-bottom: auto;
+       margin: 10px;
+    }
+}

@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 1em;
+    color: #555;
+}
+
+.badge-danger {
+    margin-top: 10px;
+    padding: 5px 10px;
+    font-size: 0.9em;
+}

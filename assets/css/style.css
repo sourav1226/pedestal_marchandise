@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.navbar .nav-link {
+    color: #000 !important;
+}
+
+.header {
+    background-color: #746868;
+    padding: 100px 0;
+}
+
+.header .display-4 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.header .lead {
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+}
+
+/* footer starts */
+footer {
+    background-color: #f8f9fa;
+    padding: 3rem 0;
+    margin-top: 5rem;
+}
+
+footer .container {
+    color: #343a40;
+    text-align: center;
+}
+
+footer p.h5 {
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+footer p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+footer .footer-bottom {
+    border-top: 1px solid #dee2e6;
+    padding-top: 1rem;
+    margin-top: 1rem;
+    font-size: 0.875rem;
+    color: #6c757d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-bottom .dropdown {
+    display: inline-block;
+}
+
+a {
+    color: #212529;
+    text-decoration: none;
+}
+
+a.link-copyright {
+    text-decoration: underline;
+}
+
+.footer-bottom .dropdown-toggle {
+    color: #141619;
+    background-color: #fff;
+    border-color: #636464;
+}
+
+.footer-bottom .dropdown-toggle:hover, 
+.footer-bottom .dropdown-toggle:focus {
+    color: #141619;
+    background-color: #e6e6e6;
+    border-color: #636464;
+}
+
+/* Scrollable Dropdown Menu */
+.footer-bottom .dropdown-menu {
+    max-height: 200px; 
+    overflow-y: auto;
+}
+
+/* footer ends */
+/*body*/
+.card{
+    text-align: center;
+    width:25rem;
+    margin: 0 auto;
+}
+.course_card .row {
+    justify-content: center; /* Center align the row */
+}
+.card h5,p{
+    color:black;
+}
+.card-img-top {
+    height: 240px; /* Adjust height as needed */
+    object-fit: cover; /* Ensure the image covers the area while maintaining aspect ratio */
+}
+.card-title,
+        .card-text {
+            font-weight: bold;
+            text-decoration: none;
+        }
+/*body ends*/
+
+

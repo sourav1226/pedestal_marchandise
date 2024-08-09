@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Add to Cart</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white">
+  <a class="navbar-brand" href="#">
+      <img src="./assets/images/logoPedestal.png" alt="NPTEL Logo" style="height: 30px;">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#">Catalog</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#">Refunds and Returns</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#">Sizing Chart</a>
+          </li>
+      </ul>
+      <ul class="navbar-nav ">
+          <!-- Search Form -->
+      <li class="nav-item">
+          <form class="form-inline my-2 my-lg-0">
+              <!--<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">-->
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+                  <i class="bi bi-search"></i>
+              </button>
+          </form>
+      </li>
+       <!-- Cart Icon -->
+       <li class="nav-item">
+          <a class="nav-link" href="#">
+              <i class="bi bi-cart"></i>
+          </a>
+      </li>
+  </ul>
+  </div>
+</nav>
+<!-- Navbar ends -->
+
+<section class="h-100">
+    <div class="container h-100 py-5">
+      <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="col-10">
+  
+          <div class="d-flex justify-content-between align-items-center mb-4">
+            <h3 class=" align-items-center">Shopping Cart</h3>
+            <div>
+              <p class="mb-0"><span class="text-muted">Sort by:</span> <a href="#!" class="text-body">price <i
+                    class="fas fa-angle-down mt-1"></i></a></p>
+            </div>
+          </div>
+  
+
+  
+          <div class="card rounded-3 mb-4">
+            <div class="card-body p-4">
+              <div class="row d-flex justify-content-between align-items-center">
+                <div class="col-md-2 col-lg-2 col-xl-2">
+                  <img
+                    src="assets/images/2.jpeg"
+                    class="img-fluid rounded-3" alt="Cotton T-shirt">
+                </div>
+                <div class="col-md-3 col-lg-3 col-xl-3">
+                  <p class="lead fw-normal mb-2">NPTEL T-shirt</p>
+                  <p><span class="text-muted">Size: </span>M <span class="text-muted">Color: </span>Grey</p>
+                </div>
+                <div class="col-md-3 col-lg-3 col-xl-2 d-flex">
+                  <button data-mdb-button-init data-mdb-ripple-init class="btn btn-link px-2"
+                    onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+                    <i class="fas fa-minus"></i>
+                  </button>
+  
+                  <input id="form1" min="0" name="quantity" value="2" type="number"
+                    class="form-control form-control-sm" />
+  
+                  <button data-mdb-button-init data-mdb-ripple-init class="btn btn-link px-2"
+                    onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                    <i class="fas fa-plus"></i>
+                  </button>
+                </div>
+                <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
+                  <h5 class="mb-0">Rs 499.00</h5>
+                </div>
+                <div class="col-md-1 col-lg-1 col-xl-1 text-end">
+                  <a href="#!" class="text-danger"><i class="fas fa-trash fa-lg"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="card rounded-3 mb-4">
+            <div class="card-body p-4">
+              <div class="row d-flex justify-content-between align-items-center">
+                <div class="col-md-2 col-lg-2 col-xl-2">
+                  <img
+                    src="assets/images/3.jpeg"
+                    class="img-fluid rounded-3" alt="Cotton T-shirt">
+                </div>
+                <div class="col-md-3 col-lg-3 col-xl-3">
+                  <p class="lead fw-normal mb-2"> Black Hoodie</p>
+                  <p><span class="text-muted">Size: </span>M <span class="text-muted">Color: </span>Grey</p>
+                </div>
+                <div class="col-md-3 col-lg-3 col-xl-2 d-flex">
+                  <button data-mdb-button-init data-mdb-ripple-init class="btn btn-link px-2"
+                    onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+                    <i class="fas fa-minus"></i>
+                  </button>
+  
+                  <input id="form1" min="0" name="quantity" value="2" type="number"
+                    class="form-control form-control-sm" />
+  
+                  <button data-mdb-button-init data-mdb-ripple-init class="btn btn-link px-2"
+                    onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                    <i class="fas fa-plus"></i>
+                  </button>
+                </div>
+                <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
+                  <h5 class="mb-0">Rs 499.00</h5>
+                </div>
+                <div class="col-md-1 col-lg-1 col-xl-1 text-end">
+                  <a href="#!" class="text-danger"><i class="fas fa-trash fa-lg"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="card rounded-3 mb-4">
+            <div class="card-body p-4">
+              <div class="row d-flex justify-content-between align-items-center">
+                <div class="col-md-2 col-lg-2 col-xl-2">
+                  <img
+                    src="assets/images/3.jpeg"
+                    class="img-fluid rounded-3" alt="Cotton T-shirt">
+                </div>
+                <div class="col-md-3 col-lg-3 col-xl-3">
+                  <p class="lead fw-normal mb-2">  white T-shirt</p>
+                  <p><span class="text-muted">Size: </span>M <span class="text-muted">Color: </span>Grey</p>
+                </div>
+                <div class="col-md-3 col-lg-3 col-xl-2 d-flex">
+                  <button data-mdb-button-init data-mdb-ripple-init class="btn btn-link px-2"
+                    onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+                    <i class="fas fa-minus"></i>
+                  </button>
+  
+                  <input id="form1" min="0" name="quantity" value="2" type="number"
+                    class="form-control form-control-sm" />
+  
+                  <button data-mdb-button-init data-mdb-ripple-init class="btn btn-link px-2"
+                    onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                    <i class="fas fa-plus"></i>
+                  </button>
+                </div>
+                <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
+                  <h5 class="mb-0"> Rs 499.00</h5>
+                </div>
+                <div class="col-md-1 col-lg-1 col-xl-1 text-end">
+                  <a href="#!" class="text-danger"><i class="fas fa-trash fa-lg"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="card mb-4">
+            <div class="card-body p-4 d-flex flex-row">
+              <div data-mdb-input-init class="form-outline flex-fill">
+                <input type="text" id="form1" class="form-control form-control-lg" />
+                <label class="form-label" for="form1">Discound code</label>
+              </div>
+              <button  type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-outline-warning btn-lg ms-3">Apply</button>
+            </div>
+          </div>
+  
+          <div class="card">
+            <div class="card-body">
+              <button  type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-warning btn-block btn-lg">Proceed to Pay</button>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <!-- Footer Starts -->
+    <footer class="bg-light py-5 mt-5" >
+      <div class="container text-dark text-center">
+          <p class="h5 mb-3 font-weight-bold">Privacy Policy</p>
+          <p class="mb-3">NPTEL Merchandise is a registered project under IIT Madras (<a href="https://nptel.ac.in/" target="_blank" rel="noopener noreferrer">nptel.ac.in</a>)</p>
+          <p class="mb-3">For Queries/Support Please Contact: <a href="mailto:merchandise@nptel.iitm.ac.in">merchandise@nptel.iitm.ac.in</a></p>
+          <p class="mb-3">&copy; <a class="link-copyright" href="https://www.iitm.ac.in/">IIT Madras</a>. All rights reserved.</p>
+          <div class="footer-bottom d-flex justify-content-between align-items-center flex-column flex-md-row">
+              <div class="dropdown mb-3 mb-md-0">
+                  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                      India (INR ₹)
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <li><a class="dropdown-item" href="#">Argentina (ARS $)</a></li>
+                      <li><a class="dropdown-item" href="#">Australia (AUD $)</a></li>
+                      <li><a class="dropdown-item" href="#">Brazil (BRL R$)</a></li>
+                      <li><a class="dropdown-item" href="#">Canada (CAD $)</a></li>
+                      <li><a class="dropdown-item" href="#">Chile (CLP $)</a></li>
+                      <li><a class="dropdown-item" href="#">China (CNY ¥)</a></li>
+                      <li><a class="dropdown-item" href="#">Colombia (COP $)</a></li>
+                      <li><a class="dropdown-item" href="#">Egypt (EGP £)</a></li>
+                      <li><a class="dropdown-item" href="#">European Union (EUR €)</a></li>
+                      <li><a class="dropdown-item" href="#">Hong Kong (HKD $)</a></li>
+                      <li><a class="dropdown-item" href="#">India (INR ₹)</a></li>
+                      <li><a class="dropdown-item" href="#">Indonesia (IDR Rp)</a></li>
+                      <li><a class="dropdown-item" href="#">Israel (ILS ₪)</a></li>
+                      <li><a class="dropdown-item" href="#">Japan (JPY ¥)</a></li>
+                      <li><a class="dropdown-item" href="#">Kenya (KES KSh)</a></li>
+                      <li><a class="dropdown-item" href="#">Malaysia (MYR RM)</a></li>
+                      <li><a class="dropdown-item" href="#">Mexico (MXN $)</a></li>
+                      <li><a class="dropdown-item" href="#">New Zealand (NZD $)</a></li>
+                      <li><a class="dropdown-item" href="#">Nigeria (NGN ₦)</a></li>
+                      <li><a class="dropdown-item" href="#">Peru (PEN S/)</a></li>
+                      <li><a class="dropdown-item" href="#">Philippines (PHP ₱)</a></li>
+                      <li><a class="dropdown-item" href="#">Russia (RUB ₽)</a></li>
+                      <li><a class="dropdown-item" href="#">Saudi Arabia (SAR ر.س)</a></li>
+                      <li><a class="dropdown-item" href="#">Singapore (SGD $)</a></li>
+                      <li><a class="dropdown-item" href="#">South Africa (ZAR R)</a></li>
+                      <li><a class="dropdown-item" href="#">South Korea (KRW ₩)</a></li>
+                      <li><a class="dropdown-item" href="#">Switzerland (CHF CHF)</a></li>
+                      <li><a class="dropdown-item" href="#">Thailand (THB ฿)</a></li>
+                      <li><a class="dropdown-item" href="#">Turkey (TRY ₺)</a></li>
+                      <li><a class="dropdown-item" href="#">United Arab Emirates (AED د.إ)</a></li>
+                      <li><a class="dropdown-item" href="#">United Kingdom (GBP £)</a></li>
+                      <li><a class="dropdown-item" href="#">United States (USD $)</a></li>
+                      <li><a class="dropdown-item" href="#">Vietnam (VND ₫)</a></li>
+                  </ul>
+              </div>
+              <div>&copy; 2024, NPTEL Merchandise Powered by Shopify</div>
+          </div>
+      </div>
+  </footer>
+</body>
+</html>

@@ -93,8 +93,8 @@ a.link-copyright {
 }
 
 /* footer ends */
-/*body*/
-.card{
+body
+.index-card{
     text-align: center;
     width:25rem;
     margin: 0 auto;
@@ -102,7 +102,7 @@ a.link-copyright {
 .course_card .row {
     justify-content: center; /* Center align the row */
 }
-.card h5,p{
+.index-card h5,p{
     color:black;
 }
 .card-img-top {
@@ -115,5 +115,6 @@ a.link-copyright {
             text-decoration: none;
         }
 /*body ends*/
+
 
 
